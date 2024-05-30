@@ -25,8 +25,8 @@ let myobj= {
     age:22,
 }
 
-const myFunction=function(){
-    console.log("hello");
+const myFunction = function() {
+    console.log("hello")
 }
 console.log(typeof anotherId);//symbol
 
@@ -38,7 +38,7 @@ console.log(typeof anotherId);//symbol
 
 let myYoutube="raghu"
 
-let anothername=MyYoutubename 
+let anothername=myYoutube
 anothername="chaiaurcode"
 
 console.log(myYoutube);
