@@ -3,8 +3,8 @@ const name = "hitesh"
 const repoCount = 50
 
 // console.log(name + repoCount + " Value");//old version
-
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);//backtick new version
+//String interpolation is a technique used in computer programming to embed expressions within a string literal
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);//backtick new version 
 
 const gameName = new String('hitesh-hc-com')
 
