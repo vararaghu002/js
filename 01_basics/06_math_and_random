@@ -13,7 +13,8 @@ const otherNumber = 123.8966
 // console.log(otherNumber.toPrecision(4));
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString())// return a string representing the given number using locale-specific formatting.(american)
+// console.log(hundreds.toLocaleString('en-IN'));//(indian)
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
