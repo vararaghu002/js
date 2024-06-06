@@ -1,0 +1,53 @@
+In JavaScript, the execution context is an abstract concept that holds information about the environment within which the current code is being executed. There are three main types of execution contexts:
+
+Global Execution Context:
+
+Created when the JavaScript engine first starts to execute the code.
+There is only one global execution context in the program.
+It contains the global object (window in browsers, global in Node.js) and the this keyword refers to this global object.
+
+Function Execution Context:
+
+Created whenever a function is invoked.
+There can be multiple function execution contexts, each associated with a function call.
+It contains the arguments passed to the function, the function's local variables, and the value of this within the function scope.
+
+  
+Eval Execution Context:
+
+Created when the eval() function is invoked.
+It has access to the current scope and can modify the outer context.
+Each execution context has two stages:
+
+
+
+
+Creation Phase:
+
+Global Execution Context:
+
+The global object and this are created.
+Outer environment reference is set to null.
+Memory is allocated for functions and variables (hoisting).
+Function Execution Context:
+arguments object is created, containing all arguments passed to the function.
+this value is determined.
+Memory is allocated for local variables and inner functions (hoisting).
+
+Execution Phase:
+
+Code is executed line by line.
+Variables are assigned values and functions are executed.
+Components of Execution Context
+
+Variable Object (VO):
+
+Contains function arguments, inner variable and function declarations.
+In the global context, this is the global object.
+Scope Chain:
+
+Consists of the current execution context’s Variable Object and the variable objects of all its parent execution contexts.
+Determines the scope of variables and functions accessible from a particular part of the code.
+this Keyword:
+
+Refers to an object that depends on how the function is called (e.g., in the global context, it refers to the global object).
