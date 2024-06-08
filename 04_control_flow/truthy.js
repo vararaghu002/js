@@ -23,7 +23,8 @@ if (Object.keys(emptyObj).length === 0) {//convert in to array
     console.log("Object is empty");
 }
 
-// Nullish Coalescing Operator (??): null undefined
+// Nullish Coalescing Operator (??): to haandle null undefined
+// let result = expression1 ?? expression2;  the default value that is returned if expression1 is null or undefined.
 
 let val1;
 // val1 = 5 ?? 10
